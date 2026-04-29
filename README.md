@@ -1,6 +1,6 @@
 # Grant Allocation Engine
 
-A logic-driven system to allocate expenses to grants based on business rules for One Acre Fund.
+A logic-driven system to allocate expenses to grants based on business rules.
 
 ## Overview
 
