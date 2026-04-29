@@ -1,0 +1,296 @@
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+*/.ipynb_checkpoints/*
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# profiling data
+.prof
+*.prof
+
+# ============================================================================
+# IDEs AND EDITORS
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# VS Code
+.history/
+
+# ============================================================================
+# MACOS
+# ============================================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.dll
+
+# ============================================================================
+# LINUX
+# ============================================================================
+
+*~
+.directory
+*.orig
+
+# ============================================================================
+# OFFICE DOCUMENTS (Word, Excel, PDF)
+# ============================================================================
+
+# Word documents
+*.doc
+*.docx
+*.docm
+*.dot
+*.dotx
+*.dotm
+*.wps
+*.wpt
+
+# Excel files
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.xltm
+*.xlam
+*.xlr
+*.csv
+*.xlsb
+
+# PowerPoint
+*.ppt
+*.pptx
+*.pptm
+*.ppsx
+*.ppsm
+*.potx
+*.potm
+
+# PDF files
+*.pdf
+
+# OpenDocument formats
+*.odt
+*.ods
+*.odp
+
+# Other office files
+*.rtf
+*.txt  # Optional - remove if you need to track text files
+
+# ============================================================================
+# PROJECT SPECIFIC
+# ============================================================================
+
+# Allocation outputs folder
+allocation_outputs/
+allocation_outputs/*
+!allocation_outputs/.keep
+
+# Data files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Output directories
+outputs/
+results/
+*.out
+
+# Secret / sensitive data
+*.key
+*.pem
+*.crt
+*.p12
+.secrets/
+config.local.*
+.env.local
+credentials.json
+secrets.json
+
+# ============================================================================
+# OPTIONAL - ONLY IF YOU USE THESE TOOLS
+# ============================================================================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# DVC
+.dvc/
+.dvc.tmp
+
+# Conda
+environment.yml
+*.conda
+
+# Google Colab
+*.ipynb
+*.pyc
+
+# Dask
+.dask/
+
+# Ray
+ray_results/
+
+# MLflow
+mlruns/
+
+# Great Expectations
+great_expectations/uncommitted/
