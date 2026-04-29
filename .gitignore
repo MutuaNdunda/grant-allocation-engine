@@ -53,7 +53,6 @@ cover/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
 */.ipynb_checkpoints/*
 
 # pyenv
